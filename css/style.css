@@ -1,3 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap");
 body {
   background-image: url(https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: 1350px;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: xx-large;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+#itemInput {
+  border: 5px solid rgb(20, 20, 20);
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+#addBtn {
+  border: 5px solid rgb(20, 20, 20);
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#clearBtn {
+  border: 5px solid rgb(20, 20, 20);
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    color:black;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    padding-top: 5px;
+    
+    
 }
