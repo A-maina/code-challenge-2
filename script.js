@@ -11,13 +11,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Create a button to remove the item
       const removeBtn = document.createElement("button");
-      removeBtn.style.backgroundColor = "white"
-      removeBtn.style.color = "black"
-      removeBtn.style.borderRadius = '40px'
-      removeBtn.style.fontFamily = "Ga Maamli", "sans-serif"
+      removeBtn.style.backgroundColor = "white";
+      removeBtn.style.color = "black";
+      removeBtn.style.borderRadius = "40px";
+      (removeBtn.style.fontFamily = "Ga Maamli"), "sans-serif";
       removeBtn.textContent = "remove";
       removeBtn.addEventListener("click", () => {
         list.removeChild(listItem);
+      });
+      //mark purchased with a line through
+      const purchased = document.createElement("button");
+      listItem.appendChild(purchased);
+      purchased.textContent = "mark";
+
+      purchased.addEventListener("click", () => {
+        listItem.style.textDecoration = "line-through";
+      });
+      //un mark purchased removing the line through
+      const removePurchased = document.createElement("button");
+      listItem.appendChild(removePurchased);
+      removePurchased.textContent = "un mark";
+
+      removePurchased.addEventListener("click", function () {
+        listItem.style.textDecoration = "none";
       });
 
       // Append  remove button to the list item
@@ -33,8 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-
-clearBtn.addEventListener("click", () => {
-  list.innerHTML = "";
-});
+  clearBtn.addEventListener("click", () => {
+    list.innerHTML = "";
+  });
 });

@@ -16,8 +16,7 @@ h1 {
   background-color: black;
   max-width: 400px;
   margin: auto;
-  
-  
+
   border-radius: 40px;
 }
 #itemInput {
@@ -43,27 +42,33 @@ h1 {
   justify-content: center;
 }
 li {
-  color:beige;
+  color: beige;
   font-family: "Anton SC", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: flex;
   padding-top: 9px;
-  background-color: black;
+  text-decoration: underline;
+ 
   padding: 20px;
-  max-width: 90px;
+  
   margin-top: 9px;
   border-radius: 60px;
-  
-
-} 
+}
 P {
-color: beige;
-font-size: x-large;
-display: flex;
-justify-content: center;
-margin-top: 400px;
-background-color: black;
-border-radius: 40px;
-
+  color: beige;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: black;
+  border-radius: 40px;
+}
+button  {
+  border: 5px solid rgb(20, 20, 20);
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 40px;
+  
 }
