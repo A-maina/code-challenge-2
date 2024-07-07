@@ -11,11 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Create a button to remove the item
       const removeBtn = document.createElement("button");
-      removeBtn.style.backgroundColor = "white";
-      removeBtn.style.color = "black";
-      removeBtn.style.borderRadius = "40px";
-      (removeBtn.style.fontFamily = "Ga Maamli"), "sans-serif";
-      removeBtn.textContent = "remove";
+      removeBtn.style.backgroundColor = "black";
+      removeBtn.style.color = "red";
+      removeBtn.style.borderRadius = "4px";
+      removeBtn.textContent = "X";
       removeBtn.addEventListener("click", () => {
         list.removeChild(listItem);
       });
