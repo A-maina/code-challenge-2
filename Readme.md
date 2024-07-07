@@ -30,7 +30,7 @@ In order for you to use the content on this repo ensure you have the following:
 ## Running the application
 
 - To run this application and ensure it works as it should, run the following command on the terminal on Vs Code.
-  `npm install`
+  ` npm install` 
 - Wait until the all the requirements are installed then run:
   `npm test`
 - All test should be passing to ensure the application works correctly.

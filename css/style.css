@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap");
 body {
-  background-image: url(https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size: 1350px;
+  background-image: url(https://images.unsplash.com/photo-1581264669997-3f222f331aaa?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1cGVybWFya2V0fGVufDB8fDB8fHww);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 h1 {
@@ -11,13 +11,20 @@ h1 {
   font-style: normal;
   display: flex;
   justify-content: center;
+  color: bisque;
+  text-decoration: underline;
+  background-color: black;
+  max-width: 400px;
+  margin: auto;
+  
+  
+  border-radius: 40px;
 }
 #itemInput {
   border: 5px solid rgb(20, 20, 20);
   font-family: "Anton SC", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
 }
 #addBtn {
   border: 5px solid rgb(20, 20, 20);
@@ -31,18 +38,32 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-#container{
-    display: flex;
-    justify-content: center;
-    
+#container {
+  display: flex;
+  justify-content: center;
 }
-li{
-    color:black;
-    font-family: "Anton SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    padding-top: 5px;
-    
-    
+li {
+  color:beige;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  padding-top: 9px;
+  background-color: black;
+  padding: 20px;
+  max-width: 90px;
+  margin-top: 9px;
+  border-radius: 60px;
+  
+
+} 
+P {
+color: beige;
+font-size: x-large;
+display: flex;
+justify-content: center;
+margin-top: 400px;
+background-color: black;
+border-radius: 40px;
+
 }
