@@ -23,9 +23,9 @@ In order for you to use the content on this repo ensure you have the following:
 1. Create a repo on your github,
 2. Copy the SSH link to your terminal,
 3. Git clone repo to preferred directory
+-     git clone git@github.com:A-maina/code-challenge-2.git 
 4. Open the selected directory,
 5. then type in ``code .`
--     git clone git@github.com:A-maina/code-challenge-2.git 
 
 ## Running the application
 
