@@ -25,7 +25,8 @@ In order for you to use the content on this repo ensure you have the following:
 3. Git clone repo to preferred directory
 -     git clone git@github.com:A-maina/code-challenge-2.git 
 4. Open the selected directory,
-5. then type in ``code .`
+5. then type in
+-        code .
 
 ## Running the application
 
